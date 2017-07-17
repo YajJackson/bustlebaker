@@ -5,7 +5,19 @@
 }
 
 h1 {
+  margin: 0px;
+  font-size: 70px;
   font-family: 'Courgette', cursive;
+}
+
+.app-header {
+  list-style: none;
+  padding-left: 0;
+}
+
+.app-header li {
+  display: inline-block;
+  padding: 0 5px;
 }
 
 .App-logo {

@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette|Pacifico|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Courgette|Gentium+Book+Basic|Pacifico|Rubik');
 
 h1 {
     font-family: 'Pacifico', cursive;
+}
+
+h3 {
+    font: italic 400 30px 'Gentium Book Basic', cursive;
+}
+
+.ingredients-header {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredients-header li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.bowl-icon {
+    height: 50px;
 }
