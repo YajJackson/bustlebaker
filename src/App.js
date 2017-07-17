@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <h1>Bustle Baker</h1>
         <img 
-          className='logo'
+          className='App-logo'
           src={chef}
           alt='Chef Logo'
         />
