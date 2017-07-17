@@ -4,5 +4,9 @@ import {Route, Switch} from 'react-router-dom'
 import './Main.css'
 
 const Main = (props) => {
-    <form>Form Stuff</form>
+  return (
+    <h1>Form Stuff</h1>
+  )
 }
+
+export default Main

@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import './App.css';
+import './App.css'
 import chef from './icons/chef.png'
+import Main from './Main'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           src={chef}
           alt='Chef Logo'
         />
+        <Main />
       </div>
     );
   }
