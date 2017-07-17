@@ -7,12 +7,28 @@ class IngredientsForm extends Component {
     ingredient: '',
   }
 
+  handleSubmit = (ev) => {
+    ev.preventDefault()
+    this.setState({ingredient:''})
+  }
+
+  handleChange = (ev) => {
+    this.setState({
+      ingredient: ev.target.value
+    })
+  }
+
   render() {
     return (
-      <form className='ingredient-form'>
+      <form 
+        className='ingredient-form'
+        onSubmit={this.handleSubmit}
+      >
         <input 
           type="text"
-          /*value={this.state.ingredient}*/
+          required='True'
+          value={this.state.ingredient}
+          onChange={this.handleChange}
         />
         <button>Add</button>
       </form>
