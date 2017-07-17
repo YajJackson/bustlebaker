@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-
 import './App.css'
+
 import chef from './icons/chef.png'
 import Main from './Main'
 
