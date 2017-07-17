@@ -5,3 +5,4 @@
 # Credits
 
 * chef by Wahyuntitle from the Noun Project
+* bowl & groceries by Maybebyoliver from Flaticon
